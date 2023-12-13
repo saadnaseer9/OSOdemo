@@ -22,11 +22,80 @@ body {
   margin-right: 14%;
   margin-bottom: 20px;
 }
+.bgColor {
+  background: rgba(247, 247, 245, 1);
+}
+.searchfield {
+  margin-left: 20%;
+  height: 95vh;
+}
+.border {
+  border: 1px solid rgba(121, 116, 126, 1);
+  width: 80%;
+}
+.border-round {
+  border-radius: 6px;
+  color: rgba(142, 51, 255, 1);
+  border: 1px solid rgba(142, 51, 255, 1);
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 70px 0px 20px;
+}
+.text-color {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(142, 51, 255, 1);
+}
+.searchHistory {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: rgba(99, 115, 129, 1);
+}
+.reportIssue {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: rgba(142, 51, 255, 1);
+  margin-left: 20px;
+}
+.logout {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  color: rgba(142, 51, 255, 1);
+}
 @media (max-width: 600px) {
   .text-style {
     width: 70%; /* or any other alignment you want for mobile devices */
   }
   .text-style-min {
     width: 100%;
+  }
+  .suggestions-row {
+    flex-direction: column;
+  }
+  .searchfield {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .border-round {
+    height: 56px;
+    width: 92%;
+    margin-bottom: 10px;
+  }
+  .border {
+    width: 92%;
+  }
+  .bgColor {
+    width: 85%;
   }
 }
