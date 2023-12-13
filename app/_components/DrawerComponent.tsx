@@ -34,7 +34,7 @@ const Navbar = ({ nav, setNav }: { nav: boolean, setNav: React.Dispatch<React.Se
                 </h2>
 
 
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "start", justifyContent: "flex-end", height: "80vh" }}>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "start", justifyContent: "flex-end", height: "75vh" }}>
                     <div style={{ display: "flex", margin: "0px 20px", width: "90%", paddingBottom: "20px", borderBottom: "1px solid rgba(223, 227, 232, 1)" }}>
                         <p className="searchHistory">Clear search history </p>
                         <p className="reportIssue">Report issue</p>
