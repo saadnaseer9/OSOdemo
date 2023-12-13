@@ -98,4 +98,7 @@ body {
   .bgColor {
     width: 85%;
   }
+  .height {
+    height: 75vh;
+  }
 }
