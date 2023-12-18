@@ -73,6 +73,47 @@ body {
   letter-spacing: 0.10000000149011612px;
   color: rgba(142, 51, 255, 1);
 }
+.borderBox {
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  mix-blend-mode: multiply;
+  box-shadow: 0px 26px 86.8px 0px rgba(0, 0, 0, 0.04);
+  width: 430px;
+  padding: 2%;
+}
+.textShadow {
+  color: #635446;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 34px */
+}
+.textShadow_ {
+  color: #635446;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 34px */
+}
+.backgroundmg {
+  background-image: url("/awardbg.png");
+  background-size: cover;
+  mix-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 5%;
+}
+.heroBg {
+  background-image: url("/hero.png");
+}
+.productCard {
+  border-radius: 12px;
+  border: 1px solid #d6d6d6;
+  background: #fbfbfb;
+}
 @media (max-width: 600px) {
   .text-style {
     width: 70%; /* or any other alignment you want for mobile devices */
@@ -100,5 +141,12 @@ body {
   }
   .heightDiv {
     height: 75vh !important;
+  }
+  .formGrid {
+    margin-top: 200px;
+    width: 100%;
+  }
+  .productSection {
+    flex-wrap: wrap-reverse;
   }
 }
